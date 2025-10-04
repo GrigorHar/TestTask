@@ -1,0 +1,24 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrigorHar/TestTask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrigorHar/TestTask/issues"
+  },
+  "homepage": "https://github.com/GrigorHar/TestTask#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1"
+  }
+}
