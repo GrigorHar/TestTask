@@ -10,4 +10,6 @@ describe('Cypress Test Cy', () => {
     it('should ', () => {
         console.log('Cypress Test Cy');
     });
+
+    it('should be able to search for a word', () => {})
 })
