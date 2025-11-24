@@ -13,9 +13,12 @@ describe('Cypress Test Cy', () => {
 
     it('should be able to search for a word', () => {})
     it('should be able to search for a word', () => {
-        cy.get('input[name="q"]').type('Cypress');
         cy.get('input[name="q"]').type('{enter}');
     })
+    it('should be able to search for a word', () => {
+        cy.get('input[name="q"]').type('{enter}');
+    })  
+
     it('should be able to search for a word', () => {
         cy.get('input[name="q"]').type('Cypress');
         cy.get('input[name="q"]').type('{enter}');
