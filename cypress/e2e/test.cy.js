@@ -3,4 +3,7 @@ describe('Cypress Test Cy', () => {
         cy.visit('http://google.com/');
     })
 
+    it('should ', () => {
+        console.log('Cypress Test Cy');
+    });
 })
