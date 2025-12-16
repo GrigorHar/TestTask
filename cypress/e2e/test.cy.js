@@ -1,3 +1,5 @@
+const { it } = require("mocha");
+
 describe('Cypress Test Cy', () => {
     beforeEach(() => {
         cy.visit('http://google.com/');
@@ -24,8 +26,11 @@ describe('Cypress Test Cy', () => {
         cy.get('input[name="q"]').type('{enter}');
     })  
 
+
     it('should be able to search for a word', () => {
         cy.get('input[name="q"]').type('Cypress');
-        cy.get('input[name="q"]').type('{enter}');
+        cy.get('input[name="q"]').type('{enter}'); 
     })  
-})
+}) ;
+
+
