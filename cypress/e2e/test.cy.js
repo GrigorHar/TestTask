@@ -31,6 +31,6 @@ describe('Cypress Test Cy', () => {
         cy.get('input[name="q"]').type('Cypress');
         cy.get('input[name="q"]').type('{enter}'); 
     })  
-});
+}) ;
 
 
